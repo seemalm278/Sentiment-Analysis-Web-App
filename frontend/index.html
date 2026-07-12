@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>😊 Sentiment Analysis AI</h1>
+
+    <p>Enter a sentence and discover its sentiment.</p>
+
+    <textarea
+        id="textInput"
+        placeholder="Type your sentence here..."
+    ></textarea>
+
+    
+    </button>
+<button onclick="predictSentiment()">Analyze</button>
+<button onclick="clearText()">Clear</button>
+    <div id="result" class="result-box"></div>
+        Your prediction will appear here.
+    </div>
+
+    <div id="loading" style="display: none;">
+    <p>⏳ Analyzing sentiment...</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
