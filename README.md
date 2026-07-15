@@ -275,6 +275,16 @@ Evaluation metrics included:
 - Cloud deployment
 
 ---
+Sentiment Analysis Web App is now fully deployed with:
+
+Backend: FastAPI on Railway
+
+Frontend: HTML/CSS/JS on Netlify
+
+Live predictions: Connected via REST API
+
+You can try the Sentiment Analysis Web App here:
+👉 Sentiment Analysis Live (boisterous-souffle-eed1e0.netlify.app in Bing)
 
 ## 👨‍💻 Author
 
